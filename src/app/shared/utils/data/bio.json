@@ -1,0 +1,6 @@
+{
+  "firstName": "Jane",
+  "lastName": "Doe",
+  "intro": ["Welcome to my portfolio!", "I am a web developer."],
+  "about": ["I specialize in Angular and web development."]
+}
