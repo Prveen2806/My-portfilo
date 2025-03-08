@@ -1,3 +1,184 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@ng-select/ng-select/themes/default.theme.css";
 @import '~font-awesome/css/font-awesome.css';
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import "font.scss";
+* {
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --primary-bg:#1F2022;
+  --secpndary-bg:rgb(0, 5, 15);
+  --primary-text-clr:#00ADB5;
+  --secondry-text-clr:#EEEEEE;
+  --text-white:#FFFFFF;
+  --font-size-2xsm: 10px; //10px
+  --font-size-xsm: 12px; // 12px
+  --font-size-sm: 14px; // 14px
+  --font-size-md: 16px; // 16px
+  --font-size-lg: 18px; // 18px
+  --font-size-xl: 20px; // 20px
+  --font-size-1xl: 22px; //22px
+  --font-size-2xl: 24px; // 24px
+  --font-size-3xl: 26px; //26px
+  --font-size-4sm: 28px; //28px
+  --font-size-4xl: 32px; // 32px
+  --font-size-5xl: 36px; //36px
+  --font-size-3xlg: 40px; // 40px
+  --font-size-4xlg: 48px; // 48px
+  --font-size-5xlg: 64px; // 64px
+    --poppins-fam:'Poppins';
+    //font-weight
+    --font-light-bold: 400;
+    --font-bold: 500;
+    --font-mid-bold: 600;
+    --font-big-bold: 700;
+    --font-bolder: 800;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--poppins-fam) !important;
+  font-size: var(--font-size-sm);
+  font-weight: 400;
+  height: 100%;
+  background-color: var(--primary-bg);
+  text-transform: capitalize;
+}
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+.fs-15 {
+font-size: 15px !important;
+}
+
+.fs-23 {
+  font-size: 23px !important;
+  }
+// font size
+.fs-2xsm {
+  font-size: var(--font-size-2xsm) !important;
+}
+
+.fs-xsm {
+  font-size: var(--font-size-xsm) !important;
+}
+
+.fs-sm {
+  font-size: var(--font-size-sm) !important;
+}
+
+.fs-md {
+  font-size: var(--font-size-md) !important;
+}
+
+.fs-xl {
+  font-size: var(--font-size-xl) !important;
+}
+
+.fs-2xl {
+  font-size: var(--font-size-2xl) !important;
+}
+
+.fs-4sm {
+  font-size: var(--font-size-4sm) !important;
+}
+
+.fs-18 {
+  font-size: 18px !important;
+}
+
+.fs-20 {
+  font-size: 20px !important;
+}
+.fs-22{
+  font-size: 22px !important;
+line-height: 1.6;
+}
+
+.fs-24 {
+  font-size: 24px !important;
+}
+
+.fs-28 {
+  font-size: 28px !important;
+}
+
+.fs-30 {
+  font-size: 30px !important;
+}
+
+.fs-32 {
+  font-size: 32px !important;
+}
+
+.fs-36 {
+  font-size: 36px !important;
+}
+
+.fs-37 {
+  font-size: 37px !important;
+}
+
+.fs-40 {
+  font-size: 40px !important;
+}
+
+.fs-42 {
+  font-size: 42px !important;
+}
+
+.fs-17 {
+  font-size: 17px !important;
+}
+
+
+//color
+.primary-color{
+  color: var( --primary-text-clr) !important;
+}
+
+.lighprimary-bgcolor{
+  background-color: var(--tertiary-color) !important;
+}
+
+.secondary-color{
+  color: var(--secondary-color) !important;
+}
+
+.tertiary-color{
+  color: var(--tertiary-color) !important;
+}
+
+.text-color-light{
+  color: var(--text-light) !important;
+}
+
+.secondary-black {
+color: var(--secondary-text-color) !important;
+}
+
+//background
+
+.primary-bg{
+  background-color: var(--primary-bg) !important;
+}
+
+.secondary-bg{
+  background-color: var(--tertiary-color) !important;
+}
+
+.br-2 {
+border-color: #AF7D78 !important;
+}

@@ -1,0 +1,15 @@
+.nav-link.active {
+  color: var(--primary-text-clr) !important;
+  border-bottom: 2px solid var(--primary-text-clr) !important; /* Underline effect */
+}
+.header-nav{
+  width: 100%;
+  // background-color: #ffffff;
+  transition: top 0.15s cubic-bezier(0.3, 0, 0, 1);
+  z-index: 700;
+  position: sticky;
+  top: 0;
+}
+.navbar-toggler{
+  background-color: var(--primary-text-clr) !important;
+}

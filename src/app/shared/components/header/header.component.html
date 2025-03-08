@@ -1,0 +1,46 @@
+<header class="fixed-top header-nav p-0 shadow-sm">
+  <div class="container">
+    <nav class="navbar navbar-expand-md align-items-center justify-content-between">
+      <!-- Logo -->
+      <a class="navbar-brand text-white" href="/">
+        Praveen NS
+      </a>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Offcanvas Menu (Visible Only on Mobile) -->
+      <div class="offcanvas offcanvas-start d-md-none" id="offcanvasNav">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a routerLink="/" routerLinkActive="active"
+              [routerLinkActiveOptions]="{ exact: true }"  class="nav-link fw-700 ">Home</a></li>
+            <li class="nav-item"><a  routerLinkActive="active" href="https://github.com/Prveen2806" class="nav-link fw-700 fs-md  "> <i class="fab fa-github"></i> GitHub</a></li>
+            <li class="nav-item"><a  routerLinkActive="active" href="https://www.linkedin.com/in/praveen-n-s-923874219/" class="nav-link fw-700 fs-md  "><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            <li class="nav-item"><a  routerLinkActive="active" href="/assets/gallery/PraveenNSResume.pdf" download="PraveenNSResume.pdf" class="nav-link fw-700 fs-md  "><i class="fas fa-file-download"></i> Resume</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Navbar for Desktop -->
+      <div class="collapse navbar-collapse d-none d-md-flex justify-content-between">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a routerLink="/" routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"  class="nav-link fw-700 fs-md text-white">Home</a></li>
+          <li class="nav-item"><a  routerLinkActive="active" href="https://github.com/Prveen2806" class="nav-link fw-700 fs-md text-white"><i class="fab fa-github"></i> GitHub</a></li>
+          <li class="nav-item"><a  routerLinkActive="active" href="https://www.linkedin.com/in/praveen-n-s-923874219/" class="nav-link fw-700 fs-md text-white"> <i class="fab fa-linkedin"></i> LinkedIn</a></li>
+          <li class="nav-item"><a  routerLinkActive="active" href="/assets/gallery/PraveenNSResume.pdf" download="PraveenNSResume.pdf" class="nav-link fw-700 fs-md text-white"><i class="fas fa-file-download"></i> Resume</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+

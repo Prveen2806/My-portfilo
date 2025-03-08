@@ -1,0 +1,71 @@
+.profile-card img{
+  filter: saturate(11.5) grayscale(120%) contrast(107%);
+}
+.pro-text img{
+  position: absolute;
+  bottom: 17%;
+  left: -4%;
+}
+.pro-text .text-inner {
+
+  position: absolute;
+  bottom: 10%;
+  left: -3%;
+
+}
+.pro-text .let-take{
+  position: absolute;
+    top: 24%;
+    left: -8%;
+}
+.about-card{
+  border: 1px solid rgba(255, 255, 255, 0.15);
+    filter: none;
+    background-color: rgb(0, 5, 15) !important;
+    background-image: url('https://framerusercontent.com/images/IFnL1oGli3DEDriPV9NtKG8cD0c.svg');
+    background-repeat: no-repeat ;
+    width: 100%;
+    opacity: 1;
+    border-radius: 16px;
+    box-shadow: none;
+    background-position: right;
+}
+.about-list {
+  list-style: none;
+  padding: 0;
+}
+
+.about-list li {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 12px;
+  color: #ddd;
+}
+
+.about-list .icon {
+  font-size: 1.5rem;
+  margin-right: 12px;
+}
+@media (max-width: 767.98px) {
+  .pro-text{
+    .let-take{
+        top: 35%;
+    }
+    .let-take h3{
+      width: 100% !important;
+    }
+    .text-inner{
+      left: -1%;
+      top: 9%;
+      bottom: 0;
+    }
+    img{
+      top: 8%;
+      bottom: 0 !important;
+    }
+  }
+  .btn-primary{
+    width: 100% !important;
+  }
+ }
